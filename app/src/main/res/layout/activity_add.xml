@@ -1,0 +1,51 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="90px"
+    android:gravity="center"
+    android:background="#7FB1EDDF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 1"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 2"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no2"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_margin="10px"
+        android:background="#340784"
+        android:textColor="#F1F6F6"
+        android:id="@+id/add"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO LOGIN"
+        android:layout_margin="10px"
+        android:textColor="#F1F6F6"
+        android:background="#340784"
+        android:id="@+id/back"/>
+
+
+</LinearLayout>
+
+
